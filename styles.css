@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(8, 159, 159);
+    font-size: 20px;
+color:white;
+}
+#width1{
+    width: 19%;
+    padding: 10px;
+    border-radius: 10px;
+}#width2{
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;}
+#width3{
+    width: 11%;
+    padding: 10px;
+    border-radius: 10px;}
+
+div{
+    width:100%;
+    margin-left:30%;
+}
