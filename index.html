@@ -7,8 +7,10 @@
     <title>Application Form</title>
 </head>
 <body >
-   <div>
-  
+   <fieldset>
+      <legend>Application Form</legend>
+<div>
+   <br>
 <h2>Alumni Membership Application Form</h2>
    <br><br><br>
    <form >
@@ -23,32 +25,57 @@
    </label><br><br>
    <input type = "text" placeholder="Email"id="width2">
    <br><br>
+   3.Password:
+</label><br><br>
+<input type = "password" placeholder="password"id="width2">
+<br><br>
     <label>
-      3.Phone number:
+      4.Phone number:
    </label><br><br>
    <input type = "tel" placeholder="Mobile number"id="width2">
    <br><br>
+   <label>
+      5.Gender:
+   </label><br><br>
+   <input type = "radio" name="gender">Female
+   <input type = "radio" name="gender">Male
+   <input type = "radio" name="gender">Prefer not to say
+   <br><br>
     <label>
-      4.What is your address?
+      6.What is your address?
    </label><br><br>
    <input type = "text" placeholder="Address"id="width2">
    <br><br>
    <input type = "text" placeholder="State" id="width3" >
    <input type = "text" placeholder="Postal code"id="width3">
-   <input type = "text" placeholder="Country"id="width3">
+  
+  <label>
+  Select country 
+</label>
+<select  id="width3">
+   <option >India
+   </option>
+   <option >China
+   </option>
+   <option >Japan
+   </option>
+   <option>Russia
+   </option>
+  
+</select>
    <br><br>
     <label>
-      5.Occupaton:
+      7.Occupaton:
    </label><br><br>
    <input type = "text" placeholder="T"id="width2">
    <br><br>
     <label>
-      6.Period of Study:
+      8.Period of Study:
    </label><br><br>
    <input type = "text" placeholder="T"id="width2">
    <br><br>
     <label>
-      7.Kindly provide details of other alumni known to you that will love to join the association:
+      9.Kindly provide details of other alumni known to you that will love to join the association:
        </label><br><br>
        <label>
          Name
@@ -60,11 +87,16 @@
      <label><br><br>
       Additional comments and suggestions
        </label><br><br><textarea cols="80" rows="5" id="width2"></textarea><br><br><br>
-       <input type = "Submit" id="width3"onclick=myfun()>
+       <input type = "Reset" id="width3">
+       <input type = "Submit" id="width3"onclick=myfun()> 
+       <br><br>
        <script>  function myfun(){ alert('your details are submitted.')}
        </script>
-
+      
 </form>
+
 </div>
+
+</fieldset>
 </body>
 </html>
